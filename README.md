@@ -1,29 +1,12 @@
-# Django React Boilerplate
+# Django-React School App
 
-[![alt text](https://github.com/justdjango/django-react-boilerplate/blob/master/thumbnail.png "Logo")](https://youtu.be/YKYVv0gm_0o)
+- Following a [video series](https://www.youtube.com/playlist?list=PLLRM7ROnmA9Hl9U5JYWVJHoZ-1uRsBZ_X) that uses Django Rest Framework and React to build a web application.
 
-This repository contains a boilerplate project setup for Django and React. The project contains backend user authentication with the Django Rest Framework and rest-auth. The frontend has react redux setup for user authentication by storing the token in localstorage.
+- I will be uploading each video in individual parts and at the end I will just merge everything back into the master branch.
+    - I will be uploading the vscode configuration although in other repos of mine I will likely be putting this into the .gitignore file.
+    - This is just for my own learning so I will be following the below.
+        - The first commit to my GitHub will be the boilerplate setup in the first video of the playlist
+        - The second commit will then be the changes up to the end of the first video.
+        - Each subsequent commit will be the changes up to the end of the second, third, fourth, and fifth videos respectively and the final commit will be merging the changes back to the master branch.
 
-[Watch the tutorial on how to integrate Django and React](https://youtu.be/YKYVv0gm_0o)
-
-## Backend development workflow
-
-```json
-virtualenv env
-source env/bin/activate
-pip install -r requirements.txt
-python manage.py runserver
-```
-
-## Frontend development workflow
-
-```json
-npm i
-npm start
-```
-
-## For deploying
-
-```json
-npm run build
-```
+- Note: When trying to do the initial npm install if there is an older version of node (8.10 in my case) there will be related errors so what I am doing to work around that is to just use nvm and using node 12.18.3 (LTS) as of 8/13/2020.
